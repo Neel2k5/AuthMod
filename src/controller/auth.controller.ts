@@ -8,7 +8,7 @@ import type { AuthUserDTO } from "../types/AuthUserDTO.js";
 import type { FetchUserDTO } from "../types/FetchUserDTO.js";
 import type { UpdateUserDTO } from "../types/UpdateUserDTO.js";
 
-import * as authService from "./auth.service.js";
+import * as authService from "../service/auth.service.js";
 
 const createUser = async (
   req: Request<{}, {}, CreateUserDTO>,

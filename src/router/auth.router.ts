@@ -1,7 +1,7 @@
 import { Router, type Request, type Response } from "express";
 import type { ResponseDTO } from "../types/ResponseDTO.js";
 
-import { authGate, endpointGate } from "./auth.middleware.js";
+import { authGate, endpointGate } from "../service/auth.middleware.js";
 import {
   createUser,
   loginUser,
@@ -10,7 +10,7 @@ import {
   deleteUser,
   logoutUser,
   fetchMe,
-} from "./auth.controller.js";
+} from "../controller/auth.controller.js";
 
 const authRouter = Router();
 const userRouter = Router();

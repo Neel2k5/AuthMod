@@ -1,6 +1,6 @@
 import express from "express";
 import cookieParser from "cookie-parser";
-import { authRouter } from "./service/auth.router.js";
+import { authRouter } from "./router/auth.router.js";
 import { infoLog } from "./util/logger.js";
 import { env } from "./util/envLoader.js";
 
