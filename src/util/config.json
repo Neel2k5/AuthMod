@@ -1,0 +1,5 @@
+{
+  "db_fetch_limit_user": 50,
+  "jwt_expiry_str": "5d",
+  "jwt_expiry_ms": 432000000
+}
