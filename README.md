@@ -40,7 +40,9 @@
 ```text
 src/
 ├── models/          # Drizzle schemas
-├── service/         # Controllers, services & middleware
+├── controller/      # Controllers
+├── router/          # Router
+├── service/         # Services & middleware
 ├── types/           # DTOs and shared types
 ├── util/            # DB, env loader, logger
 └── index.ts
